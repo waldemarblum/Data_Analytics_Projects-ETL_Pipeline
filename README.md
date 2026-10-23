@@ -2,25 +2,25 @@
 
 ### Project Overview
 
-This project focuses on developing an ETL (Extract, Transform, Load) pipeline to collect, process, and store data from multiple sources.
+This project focuses on developing an ETL (Extract, Transform, Load) pipeline to collect, process and store data from multiple sources.
 
-The pipeline integrates data from three different sources: one web scraping source and two APIs. Using Python and Pandas, the collected data is cleaned, transformed, and structured before being stored in a SQL database.
+The pipeline integrates data from three different sources: one web scraping source and two APIs. Using Python and Pandas, the collected data is cleaned, transformed and structured before being stored in a SQL database.
 
-The goal is to build a reproducible and efficient data pipeline that automates data processing, improves data quality, and prepares the data for further analysis.
+The goal is to build a reproducible and efficient data pipeline that automates data processing, improves data quality and prepares the data for further analysis.
 
 ### Project Objectives
 
 Extract data from multiple sources using web scraping and APIs.
 
-Clean, transform, and structure data using Python and Pandas.
+Clean, transform and structure data using Python and Pandas.
 
 Integrate data from different sources into a consistent format.
 
-Design and manage a SQL database for persistent data storage.
+Design and manage an SQL database for persistent data storage.
 
 Automate data processing and reduce manual intervention.
 
-Prepare reliable, structured data for analysis and reporting.
+Prepare reliable and structured data for analysis and reporting.
 
 #### ETL Process
 
@@ -34,11 +34,12 @@ Data is collected from three different sources using two complementary approache
 
 Web scraping is used to extract publicly accessible information from websites. Python scripts process website content and retrieve relevant data from HTML documents.
 
-Web scraping is performed responsibly, respecting website terms of service, applicable copyright and privacy requirements, and relevant access restrictions.
+Web scraping is performed responsibly, respecting website terms of service, applicable copyright and privacy requirements as well as relevant access restrictions.
 
 ##### API Integration
 
 Two APIs are used to retrieve structured data from external services. APIs provide standardized interfaces for accessing data and often offer a more reliable and maintainable alternative to web scraping.
+Therefore, during this project web scraping was mainly performed for insights into the referring topic and experience-gaining purposes. 
 
 Where required, API credentials are configured securely to authenticate requests.
 
@@ -48,9 +49,7 @@ The extracted data is processed and prepared for storage using Python and Pandas
 
 Key transformation tasks include:
 
-Cleaning and validating raw data.
-
-Handling missing values and duplicate records.
+(Cleaning) Collecting and validating raw data.
 
 Standardizing data types and formats.
 
@@ -80,15 +79,13 @@ Maintaining organized and persistent data storage.
 
 The database serves as the central repository for the processed data and supports subsequent analysis.
 
-Technologies & Tools
+##### Technologies & Tools
 
-Technology
-
-Purpose
+*Technology - Purpose*
 
 Python - Pipeline implementation and automation
 
-Pandas - Data cleaning, transformation, and integration
+Pandas - Data cleaning, transformation and integration
 
 Web Scraping - Extracting data from websites
 
@@ -100,9 +97,9 @@ SQL Database - Persistent storage of processed data
 
 ### Expected Outcome
 
-The final result is an ETL pipeline that combines data from three sources, transforms it into a consistent and structured format, and stores it in a SQL database.
+The final result is an ETL pipeline that combines data from several sources, transforms it into a consistent as well as structured format and stores it in an SQL database.
 
-This project demonstrates practical skills in data acquisition, data processing, API integration, web scraping, and database management.
+This project aims to demonstrate practical skills in data acquisition, data processing, API integration, web scraping and also database management.
 
 ### Key Learning Outcomes
 
@@ -114,4 +111,4 @@ Processing and transforming datasets with Python and Pandas.
 
 Designing and interacting with SQL databases.
 
-Building structured, maintainable, and reproducible data workflows.
+Building structured, maintainable and reproducible data workflows.
