@@ -1,6 +1,6 @@
 ## ETL Pipeline: Data Collection, Transformation & Storage
 
-Project Overview
+# Project Overview
 
 This project focuses on developing an ETL (Extract, Transform, Load) pipeline to collect, process, and store data from multiple sources.
 
@@ -8,7 +8,7 @@ The pipeline integrates data from three different sources: one web scraping sour
 
 The goal is to build a reproducible and efficient data pipeline that automates data processing, improves data quality, and prepares the data for further analysis.
 
-Project Objectives
+# Project Objectives
 
 Extract data from multiple sources using web scraping and APIs.
 
