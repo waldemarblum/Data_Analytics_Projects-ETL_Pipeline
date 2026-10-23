@@ -81,7 +81,7 @@ The database serves as the central repository for the processed data and support
 
 ##### Technologies & Tools
 
-*Technology - Purpose*
+(Technology - Purpose)
 
 Python - Pipeline implementation and automation
 
