@@ -1,4 +1,4 @@
-# ETL Pipeline: Data Collection, Transformation & Storage
+## ETL Pipeline: Data Collection, Transformation & Storage
 
 Project Overview
 
