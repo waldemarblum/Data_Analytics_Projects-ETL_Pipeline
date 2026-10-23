@@ -22,27 +22,27 @@ Automate data processing and reduce manual intervention.
 
 Prepare reliable, structured data for analysis and reporting.
 
-### ETL Process
+#### ETL Process
 
 The pipeline consists of three main stages:
 
-1. Extract – Data Collection
+###### 1. Extract – Data Collection
 
 Data is collected from three different sources using two complementary approaches.
 
-#### Web Scraping
+##### Web Scraping
 
 Web scraping is used to extract publicly accessible information from websites. Python scripts process website content and retrieve relevant data from HTML documents.
 
 Web scraping is performed responsibly, respecting website terms of service, applicable copyright and privacy requirements, and relevant access restrictions.
 
-#### API Integration
+##### API Integration
 
 Two APIs are used to retrieve structured data from external services. APIs provide standardized interfaces for accessing data and often offer a more reliable and maintainable alternative to web scraping.
 
 Where required, API credentials are configured securely to authenticate requests.
 
-2. Transform – Data Processing
+###### 2. Transform – Data Processing
 
 The extracted data is processed and prepared for storage using Python and Pandas.
 
@@ -62,7 +62,7 @@ Preparing the processed data for database insertion.
 
 These steps help improve data consistency, quality, and usability.
 
-3. Load – Data Storage
+###### 3. Load – Data Storage
 
 The cleaned and transformed data is loaded into a SQL database.
 
@@ -86,37 +86,25 @@ Technology
 
 Purpose
 
-Python
+Python - Pipeline implementation and automation
 
-Pipeline implementation and automation
+Pandas - Data cleaning, transformation, and integration
 
-Pandas
+Web Scraping - Extracting data from websites
 
-Data cleaning, transformation, and integration
+APIs - Retrieving structured data from external services
 
-Web Scraping
+SQL - Querying and managing relational data
 
-Extracting data from websites
+SQL Database - Persistent storage of processed data
 
-APIs
-
-Retrieving structured data from external services
-
-SQL
-
-Querying and managing relational data
-
-SQL Database
-
-Persistent storage of processed data
-
-Expected Outcome
+### Expected Outcome
 
 The final result is an ETL pipeline that combines data from three sources, transforms it into a consistent and structured format, and stores it in a SQL database.
 
 This project demonstrates practical skills in data acquisition, data processing, API integration, web scraping, and database management.
 
-Key Learning Outcomes
+### Key Learning Outcomes
 
 Understanding the architecture and workflow of ETL pipelines.
 
