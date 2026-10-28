@@ -112,3 +112,11 @@ Processing and transforming datasets with Python and Pandas.
 Designing and interacting with SQL databases.
 
 Building structured, maintainable and reproducible data workflows.
+
+### Perform ETL-funcionality
+
+To reproduce the achieved ETL goals, the following should be performed:
+- Run all queries inside the file "sql_table_creation_cities.sql" using an SQL application -> this creates the database as well as all required tables where all data will be transfered to during the further process.
+- Using Python run all codes of "City_weather.ipynb" and "Flight_requests.ipynb" -> this will grab referring information from the following sites: https://api.api-ninjas.com/v1/city, https://api.openweathermap.org/data/2.5/forecast, https://aerodatabox.p.rapidapi.com/airports/search/location and https://aerodatabox.p.rapidapi.com/flights/. The last step of each Python file "...df.to_sql(...) transfers collected data to SQL and inputs it into the dataset created in first step.
+- Running "select * from cities_general;", "select * from cities_all_weather_data;" and "select * from cities_flight_data;" will refresh SQLs data and display the corresponding tables filled with the transferred data.
+  
